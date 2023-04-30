@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    /* transition: all .2s linear; */
+}
+img{
+    width: 100%;
+}
+
+html{
+    /* font-size: 62.5%; */
+    overflow-x: hidden; 
+    scroll-behavior: smooth;
+    scroll-padding-top: 7rem;
+}
+
+body{
+    /* background:#eee; */
+}
+header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    background-color: #fff;
+    box-shadow: 0 1px 4px hsl(0 4% 15% / 10%);
+}
+.nav{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.container{
+    max-width: 1230px;
+    margin: auto;
+    width: 100%;
+}
+.details-box{
+    display: grid;
+    gap: 0.5rem;
+}
+.cart-product-title{
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+.cart-price{
+    font-weight: 500;
+}
+#card-icon{
+   font-size: 1.8rem; 
+   cursor: pointer;
+}
+.section-title{
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+.shop{
+    margin-top: 2rem;
+}
+.shop-content{
+    /* display: flex; */
+    /* gap: 10px; */
+    /* display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(240px, auto));
+    gap: 0rem; */
+    /* max-width: 1230px; */
+}
+.grid-item{
+    /* width: 240px; */
+    /* position: relative;
+    float: left;
+    padding: 10px 0px;
+    margin: 5px !important;
+    outline: 1px solid transparent; */
+    /* background: blueviolet; */
+    /* overflow: hidden; */
+    transition: 0.4s;
+    z-index: 55;
+}
+.product-box:hover{
+    outline: 1px solid black;
+}
+.product-img{
+    width: 240px;
+    height: auto;
+    margin-bottom: 0.5rem;
+}
+.product-title{
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+}
+.price{
+    font-weight: 600;
+}
+
+/* responsive */ 
+
+
+/* checkbox */
+.check-container{
+    margin-bottom: 10px;
+    /* width: 65vw; */
+    box-shadow: 0 15px 35px rgba(50,50,93,.1),0 5px 15px rgba(0,0,0,.02);
+    padding: 2rem;
+    background-color: #fff;
+}
+
+/* checkbox */

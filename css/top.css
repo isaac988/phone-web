@@ -1,0 +1,37 @@
+#top-banna-warp{
+    width: 1200px;
+    position: relative;
+    background-color: aqua;
+}
+.slider-wrap{
+    /* height: 400px; */
+    background-color: aqua;
+}
+.img-caro{
+    display: flex !important;
+    gap: 20px !important;
+}
+.top-items{
+    margin-right: 10px !important;
+    width: 200px;
+}
+.items-image{
+    max-width: 500px;
+    height: 400px;
+}
+.items-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.items-content{
+    height: 200px;
+    text-align: center;
+}
+.top-arrow{
+    position: absolute !important;
+    top: 50%;
+}
+.rating span {
+    color: gold !important;
+}

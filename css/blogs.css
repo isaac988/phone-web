@@ -1,0 +1,31 @@
+#blogs{
+    max-width: 1230px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+    margin-top: 90px;
+}
+.blogs-header-section{
+    text-transform: uppercase;
+    font-weight: 900;
+    /* font-size: 20px; */
+    margin-bottom: 10px;
+}
+.blog-items{
+    display: flex;
+    gap: 20px;
+}
+.card-title{
+    margin-bottom: 10px;
+}
+.card-img-top{
+    margin-bottom: 10px;
+}
+.card-text{
+    margin-bottom: 10px;
+    color: rgb(189, 184, 184); 
+}
+.color-second{
+    text-transform: capitalize;
+    color: rgb(59, 59, 228);
+}

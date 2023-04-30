@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>phone web</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+    <link rel="stylesheet" href="font-awsome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="font-awsome/fonts/fontawesome-webfont.svg">
+    <link rel="stylesheet" href="slick-1.8.1/slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="slick-1.8.1/slick-1.8.1/slick/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="css/nhead.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
+	<link rel="stylesheet" type="text/css" href="css/slide.css">
+	<link rel="stylesheet" type="text/css" href="css/special-price.css">
+	<link rel="stylesheet" type="text/css" href="css/product.css">
+	<link rel="stylesheet" type="text/css" href="css/twoBanna.css">
+	<link rel="stylesheet" type="text/css" href="css/blogs.css">
+	<link rel="stylesheet" type="text/css" href="css/footer.css">
+    <link rel="stylesheet" type="text/css" href="css/cart.css">
+</head>
+<body>
+    <!-- header start -->
+    <header class="dstophead">
+        <div class="header-con">
+            <div class="bars">&#11166;</div>
+            <div class="logo">
+                <a href="index.html"><span>Y</span> ello</a>
+            </div>
+            <div class="nav-con">
+                <ul id="navbar">
+                    <li class="drop-one list">
+                        <a href="#">On sale</a>
+                        <!-- <span>&#11167;</span> -->
+                    </li>
+                    <li class="drop-one list">
+                        <a href="#">category</a>
+                    </li>
+                    <li  class="drop-one list">
+                        <a href="#">products</a>
+                    </li>
+                    <li  class="drop-one list">
+                        <a href="#">blog</a>
+                    </li>
+                    <li class="drop-one list">
+                        <a href="#">category</a>
+                    </li>
+                    <li class="drop-one list">
+                        <a href="#">coming soon</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="right-nav">
+                <form action="" class="search-form">
+                    <button>
+                        <i class="fa fa-search"></i>
+                    </button>
+                    <input type="text" placeholder="Search Product">
+                    
+                </form>
+                <button class="nav-btn">
+                    <a href="cart.html">
+                    <div class="i fa fa-shopping-bag"></div>
+                    </a>
+                </button>
+            </div>
+        </div>
+    </header>
+    <!-- header end -->
+
+    <!-- cart -->
+    <section id="cart" class="cart container-cart">
+        <h5 class="cart-title">Shopping Cart</h5>
+
+        <div class="cart-item-wrap">
+
+        
+            <!--  shopping cart items   -->
+            <div class="cart-item-bx">
+                <div class="cart-item">
+                    <img src="assets/products/1.png" style="height: 120px; width: 150px;" alt="cart1" class="img-fluid">
+                    <div class="cart-item-con">
+                        <h5>Samsung Galaxy 10</h5>
+                            <small>by Samsung</small>
+                            <!-- product rating -->
+                                <div class="ddd-flex">
+                                    <div class="rating">
+                                        <span><i class="fa fa-star"></i></span>
+                                        <span><i class="fa fa-star"></i></span>
+                                        <span><i class="fa fa-star"></i></span>
+                                        <span><i class="fa fa-star"></i></span>
+                                        <span><i class="fa fa-star"></i></span>
+                                        </div>
+                                        <a href="#" class="cart-link">20,534 ratings</a>
+                                </div>
+                            <!--  !product rating--><!-- product qty -->
+                            <div class="qty-in-de">
+                                <div class="d-flex font-rale w-25">
+                                    <button class="qty-down cart-qty-btn" data-id="pro1"><i class="fa fa-minus"></i></button>
+                                    <input type="text" class="qty_input-cart qty_input" disabled value="1" placeholder="1" data-id="pro1">
+                                    <button class="qty-up cart-qty-btn" data-id="pro1"><i class="fa fa-plus"></i></button>
+                                </div>
+                                <button type="submit" class="btn-opp">Delete</button>
+                                <button type="submit" class="btn-opp">Save for Later</button>
+                            </div>
+                            <!-- !product qty -->
+
+                    </div>
+                    <div class="cart-price">
+                        <div class="font-size-203">
+                            ₵<span class="cart-product_price">152</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!--  shopping cart items   -->
+
+            <!-- subtotal section-->
+            <div class="subtotal-wrap">
+                <div class="subtotal-inner">
+                    <h6><i class="fa fa-check"></i> Your order is eligible for FREE Delivery.</h6>
+                    <div class="border-top py-4">
+                        <h5>Subtotal (2 item):&nbsp; <span class="deal-price">$<span class="text-danger" id="deal-price">152.00</span> </span> </h5>
+                        <button type="submit" class="Proceed-to-btn">Proceed to Buy</button>
+                    </div>
+                </div>
+            </div>
+            <!-- !subtotal section-->
+        </div>
+    </section>
+    <!-- cart -->
+
+    <!-- banner start -->
+    <section class="banner-section">
+            
+        <div class="header-section">
+            <div class="title-box">
+                <h2>new phones</h2>
+            </div>
+        </div>
+        <div class="slider-wrapper">
+            <div class="img-carousel slider"> 
+                <a href="" class="items">
+                    <div class="items-image">
+                        <img src="assets/products/15.png" alt="" class="product-img">
+                    </div>
+                    <div class="items-content">
+                        <h2 class="product-title">Samsung Galaxy 10</h2>
+                        <div class="rating text-warning">
+                            <span><i class="fa fa-star"></i></span>
+                            <span><i class="fa fa-star"></i></span>
+                            <span><i class="fa fa-star"></i></span>
+                            <span><i class="fa fa-star"></i></span>
+                            <span><i class="fa fa-star"></i></span>
+                        </div>
+                        <div class="price-bx">
+                            <span class="price">₵125.00</span>
+                        </div>
+                        <div class="addtocart">
+                            <h5>Add To Cart</h5>
+                        </div>
+                    </div> 
+                </a>  
+                <a href="" class="items">
+                    <div class="items-image">
+                        <img src="assets/products/15.png" alt="" class="product-img">
+                    </div>
+                    <div class="items-content">
+                        <h2 class="product-title">Samsung Galaxy 10</h2>
+                        <div class="rating text-warning">
+                            <span><i class="fa fa-star"></i></span>
+                            <span><i class="fa fa-star"></i></span>
+                            <span><i class="fa fa-star"></i></span>
+                            <span><i class="fa fa-star"></i></span>
+                            <span><i class="fa fa-star"></i></span>
+                        </div>
+                        <div class="price-bx">
+                            <span class="price">₵145.00</span>
+                        </div>
+                        <div class="addtocart">
+                            <h5>Add To Cart</h5>
+                        </div>
+                    </div> 
+                </a>  
+                <a href="" class="items">
+                    <div class="items-image">
+                        <img src="assets/products/15.png" alt="" class="product-img">
+                    </div>
+                    <div class="items-content">
+                        <h2 class="product-title">Samsung Galaxy 10</h2>
+                        <div class="rating text-warning">
+                            <span><i class="fa fa-star"></i></span>
+                            <span><i class="fa fa-star"></i></span>
+                            <span><i class="fa fa-star"></i></span>
+                            <span><i class="fa fa-star"></i></span>
+                            <span><i class="fa fa-star"></i></span>
+                        </div>
+                        <div class="price-bx">
+                            <span class="price">₵135.00</span>
+                        </div>
+                        <div class="addtocart">
+                            <h5>Add To Cart</h5>
+                        </div>
+                    </div> 
+                </a>
+                <a href="" class="items">
+                    <div class="items-image">
+                        <img src="assets/products/15.png" alt="" class="product-img">
+                    </div>
+                    <div class="items-content">
+                        <h2 class="product-title">Samsung Galaxy 10</h2>
+                        <div class="rating text-warning">
+                            <span><i class="fa fa-star"></i></span>
+                            <span><i class="fa fa-star"></i></span>
+                            <span><i class="fa fa-star"></i></span>
+                            <span><i class="fa fa-star"></i></span>
+                            <span><i class="fa fa-star"></i></span>
+                        </div>
+                        <div class="price-bx">
+                            <span class="price">₵45.00</span>
+                        </div>
+                        <div class="addtocart">
+                            <h5>Add To Cart</h5>
+                        </div>
+                    </div> 
+                </a>  
+                <a href="" class="items">
+                    <div class="items-image">
+                        <img src="assets/products/15.png" alt="" class="product-img">
+                    </div>
+                    <div class="items-content">
+                        <h2 class="product-title">Samsung Galaxy 10</h2>
+                        <div class="rating text-warning">
+                            <span><i class="fa fa-star"></i></span>
+                            <span><i class="fa fa-star"></i></span>
+                            <span><i class="fa fa-star"></i></span>
+                            <span><i class="fa fa-star"></i></span>
+                            <span><i class="fa fa-star"></i></span>
+                        </div>
+                        <div class="price-bx">
+                            <span class="price">₵45.00</span>
+                        </div>
+                        <div class="addtocart">
+                            <h5>Add To Cart</h5>
+                        </div>
+                    </div> 
+                </a>  
+                <a href="" class="items">
+                    <div class="items-image">
+                        <img src="assets/products/15.png" alt="" class="product-img">
+                    </div>
+                    <div class="items-content">
+                        <h2 class="product-title">Samsung Galaxy 10</h2>
+                        <div class="rating text-warning">
+                            <span><i class="fa fa-star"></i></span>
+                            <span><i class="fa fa-star"></i></span>
+                            <span><i class="fa fa-star"></i></span>
+                            <span><i class="fa fa-star"></i></span>
+                            <span><i class="fa fa-star"></i></span>
+                        </div>
+                        <div class="price-bx">
+                            <span class="price">₵45.00</span>
+                        </div>
+                        <div class="addtocart">
+                            <h5>Add To Cart</h5>
+                        </div>
+                    </div> 
+                </a>  
+                <a href="" class="items">
+                    <div class="items-image">
+                        <img src="assets/products/15.png" alt="" class="product-img">
+                    </div>
+                    <div class="items-content">
+                        <h2 class="product-title">Samsung Galaxy 10</h2>
+                        <div class="rating text-warning">
+                            <span><i class="fa fa-star"></i></span>
+                            <span><i class="fa fa-star"></i></span>
+                            <span><i class="fa fa-star"></i></span>
+                            <span><i class="fa fa-star"></i></span>
+                            <span><i class="fa fa-star"></i></span>
+                        </div>
+                        <div class="price-bx">
+                            <span class="price">₵45.00</span>
+                        </div>
+                        <div class="addtocart">
+                            <h5>Add To Cart</h5>
+                        </div>
+                    </div> 
+                </a>  
+                <a href="" class="items">
+                    <div class="items-image">
+                        <img src="assets/products/15.png" alt="" class="product-img">
+                    </div>
+                    <div class="items-content">
+                        <h2 class="product-title">Samsung Galaxy 10</h2>
+                        <div class="rating text-warning">
+                            <span><i class="fa fa-star"></i></span>
+                            <span><i class="fa fa-star"></i></span>
+                            <span><i class="fa fa-star"></i></span>
+                            <span><i class="fa fa-star"></i></span>
+                            <span><i class="fa fa-star"></i></span>
+                        </div>
+                        <div class="price-bx">
+                            <span class="price">₵45.00</span>
+                        </div>
+                        <div class="addtocart">
+                            <h5>Add To Cart</h5>
+                        </div>
+                    </div> 
+                </a>  
+                <a href="" class="items">
+                    <div class="items-image">
+                        <img src="assets/products/15.png" alt="" class="product-img">
+                    </div>
+                    <div class="items-content">
+                        <h2 class="product-title">Samsung Galaxy 10</h2>
+                        <div class="rating text-warning">
+                            <span><i class="fa fa-star"></i></span>
+                            <span><i class="fa fa-star"></i></span>
+                            <span><i class="fa fa-star"></i></span>
+                            <span><i class="fa fa-star"></i></span>
+                            <span><i class="fa fa-star"></i></span>
+                        </div>
+                        <div class="price-bx">
+                            <span class="price">₵45.00</span>
+                        </div>
+                        <div class="addtocart">
+                            <h5>Add To Cart</h5>
+                        </div>
+                    </div> 
+                </a>  
+                <a href="" class="items">
+                    <div class="items-image">
+                        <img src="assets/products/15.png" alt="" class="product-img">
+                    </div>
+                    <div class="items-content">
+                        <h2 class="product-title">Samsung Galaxy 10</h2>
+                        <div class="rating text-warning">
+                            <span><i class="fa fa-star"></i></span>
+                            <span><i class="fa fa-star"></i></span>
+                            <span><i class="fa fa-star"></i></span>
+                            <span><i class="fa fa-star"></i></span>
+                            <span><i class="fa fa-star"></i></span>
+                        </div>
+                        <div class="price-bx">
+                            <span class="price">₵45.00</span>
+                        </div>
+                        <div class="addtocart">
+                            <h5>Add To Cart</h5>
+                        </div>
+                    </div> 
+                </a>  
+                <a href="" class="items">
+                    <div class="items-image">
+                        <img src="assets/products/15.png" alt="" class="product-img">
+                    </div>
+                    <div class="items-content">
+                        <h2 class="product-title">Samsung Galaxy 10</h2>
+                        <div class="rating text-warning">
+                            <span><i class="fa fa-star"></i></span>
+                            <span><i class="fa fa-star"></i></span>
+                            <span><i class="fa fa-star"></i></span>
+                            <span><i class="fa fa-star"></i></span>
+                            <span><i class="fa fa-star"></i></span>
+                        </div>
+                        <div class="price-bx">
+                            <span class="price">₵45.00</span>
+                        </div>
+                        <div class="addtocart">
+                            <h5>Add To Cart</h5>
+                        </div>
+                    </div> 
+                </a> 
+            </div>
+        </div>
+
+    </section>
+    <!-- banner end -->
+
+    
+
+    <!-- start #footer -->
+    <footer id="footer" class="bg-dark">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg">
+              <h4 class="font-rubik font-size-20">Mobile Shopee</h4>
+              <p class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus, deserunt.</p>
+            </div>
+            <div class="col-lg">
+              <h4 class="font-rubik font-size-20">Newslatter</h4>
+              <form class="form-row">
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="enter your email">
+                </div>
+                <div class="col">
+                  <button type="submit" class=" btn-primary">Subscribe</button>
+                </div>
+              </form>
+            </div>
+            <div class="col-lg">
+              <h4 class="font-rubik font-size-20">Information</h4>
+              <div class="dd-flex">
+                <a href="#" class="pb-1">About Us</a>
+                <a href="#" class="pb-1">Delivery Information</a>
+                <a href="#" class="pb-1">Privacy Policy</a>
+                <a href="#" class="pb-1">Terms & Conditions</a>
+              </div>
+            </div>
+            <div class="col-lg">
+              <h4 class="font-rubik">Account</h4>
+              <div class="dd-flex">
+                <a href="#" class="pb-1">My Account</a>
+                <a href="#" class="pb-1">Order History</a>
+                <a href="#" class="pb-1">Wish List</a>
+                <a href="#" class="pb-1">Newslatters</a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </footer>
+    <div class="copyright">
+        <p class="font-ral">&copy; Copyrights 2020. Desing By <a href="#" class="color-second">Kwaku_yeb</a></p>
+    </div>
+  <!-- !start #footer -->
+    <script src="js/jquery-331.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="slick-1.8.1/slick-1.8.1/slick/slick.min.js"></script>
+    <script>
+        $(".slider-banna").slick({
+            speed: 1000,
+            nav: true,
+            dots: true,
+            arrows:true,
+            infinite: true,
+            autoplay: true,
+
+            prevArrow: '<button class="prev_arr banna-arrow"><i class="fa fa-angle-left" aria-hidden="true"></i></button>',
+
+            nextArrow: '<button class="next_arr banna-arrow"><i class="fa fa-angle-right aria-hidden="true""></i></button>',
+
+            slidesToShow:1,
+            slidesToScroll: 1,           
+       });
+    </script>
+	<script>
+        // $(".slider-top").slick({
+        //     speed: 1500,
+		// 	dots: true,
+		// 	arrows:true,
+		//     infinite: false,
+        //     autoplay: true,
+
+		// 	prevArrow: '<button class="prev_arro top-arrow"><i class="fa fa-angle-left"></i></button>',
+
+		// 	nextArrow: '<button class="next_arro top-arrow"><i class="fa fa-angle-right"></i></button>',
+
+		// 	slidesToShow:5,
+		// 	slidesToScroll: 2,
+		// });
+	</script>
+	<script>
+		$(".slider").slick({
+			slidesToShow:5,
+			slidesToScroll: 2,
+			dots: true,
+			arrows:true,
+			infinite: false,
+			prevArrow: '<button class="prev_arr"><i class="fa fa-angle-left" aria-hidden="true"></i></button>',
+			nextArrow: '<button class="next_arr"><i class="fa fa-angle-right" aria-hidden="true"></i></button>',
+
+
+		// the magic
+
+
+		});
+	</script>
+</body>
+</html>

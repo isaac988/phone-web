@@ -1,0 +1,227 @@
+.pro__details{
+    max-width: 1030px;
+    margin: auto;
+    width: 100%;
+}
+
+.topper-wap{
+    display: flex;
+    margin-top: 40px;
+    gap: 20px;
+}
+.product-bx-det,
+.pro-syd-details{
+    width: 50%;
+}
+.pro-syd-details{
+    margin-top: 50px;
+}
+.product-bx-det .img-det{
+    width: 100%;
+    height: 500px;
+}
+.product-bx-det .img-det img{
+    object-fit: contain;
+    height: 500px;
+}
+.product-bx-det-btn{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+.form-controls{
+    padding: 10px;
+    width: 50%;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.form-controls h2{
+    font-size: 15px;
+}
+.red{
+    background: red;
+}
+.gold{
+    background: gold;
+}
+.det-flex{
+    display: flex;
+    gap: 10px;
+    padding-top: 5px;
+    /* padding-bottom: 5px; */
+    border-bottom: 1px solid rgb(194, 193, 193);
+}
+.font-baloo{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 18px;
+}
+.blue-a{
+    color: blue;
+}
+.pro-syd-details .smallin{
+    margin-bottom: 20px;
+}
+.table{
+    margin-bottom: 20px;
+}
+.table p{
+    display: flex;
+    margin-top: 10px;
+}
+.cancel-tru{
+    margin-left: 35px;
+    text-decoration: line-through;
+}
+.p-right{
+    color: red;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.dis-flex{
+    display: flex;
+    gap: 20px;
+}
+#policy{
+    border-bottom: 1px solid rgb(194, 193, 193);
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.poli-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+.poli-cont button{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    border: 1px solid rgb(165, 162, 162);
+}
+.poli-cont button i{
+    color: turquoise;
+    font-size: 20px;
+}
+.poli-cont a{
+    color: rgb(91, 118, 207);
+    font-size: 14px;
+    line-height: 20px;
+}
+.order-details{
+    display: flex;
+    flex-direction: column; 
+    gap: 4px;
+}
+.order-details{
+    line-height: 15px;
+}
+.order-details small{
+    color: rgb(165, 162, 162);
+}
+.order-details small a{
+    color: blue;
+}
+.color-gty-bx{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    padding-right: 30px;
+}
+.color{
+    display: flex;
+    align-items: center;
+}
+.font-color{
+    color: #333;
+    font-size: 18px;
+}
+.colors-bx{
+    margin-left: 15px;
+    display: flex;
+    gap: 10px;
+
+}
+.color .rounded-circle{
+    cursor: pointer;
+}
+.color .rounded-circle{
+    background: red;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+
+}
+.color .rounded-circle:nth-child(2){
+    background: blue;
+}
+.color .rounded-circle:nth-child(3){
+    background: greenyellow;
+}
+.qty{
+    display: flex;
+    align-items: center;
+}
+.qty-bx{
+    display: flex;
+    margin-left: 20px;
+}
+.qty-btn{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: larger;
+    color: white;
+}
+.qty-btn:hover{
+    background: black;
+}
+.qty_input{
+    background: none;
+    width: 50px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+    color: rgb(124, 121, 121);
+}
+.size{
+    align-items: center;
+    margin-top: 30px;
+    display: flex;
+}
+.Size-bx{
+    margin-top: 10px;
+    margin-left: 30px;
+    display: flex;
+    gap: 10px;
+}
+.Size-bx-item button{
+    height: 40px;
+    width: 90px;
+    background: none;
+    outline: 1px solid gray;
+    cursor: pointer;
+}
+.Size-bx-item button:hover{
+    font-weight: bolder;
+}
+.Product-Description{
+    margin-top: 40px;
+}
+.Product-Description .fon{
+    font-size: 20px;
+    width: 100%;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgb(202, 197, 197);
+    margin-bottom: 15px;
+}
+.prd-des{
+    color: rgb(92, 91, 91);
+    line-height: 20px;
+    margin-bottom: 20px;
+}
